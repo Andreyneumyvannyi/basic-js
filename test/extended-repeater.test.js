@@ -1,4 +1,4 @@
-const chai = require('chai');
+/* const chai = require('chai');
 const { expect, assert } = chai;
 it.optional = require('../extensions/it-optional');
 
@@ -159,4 +159,4 @@ describe('Extended repeater', () => {
       assert.equal(repeater(null, { repeatTimes: 3, separator: '??? ', addition: null, additionRepeatTimes: 3, additionSeparator: '!!!' }), 'nullnull!!!null!!!null??? nullnull!!!null!!!null??? nullnull!!!null!!!null');  
     });
   });
-});
+}); */

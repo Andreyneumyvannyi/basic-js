@@ -1,4 +1,4 @@
-const chai = require('chai');
+/* const chai = require('chai');
 const { expect, assert } = chai;
 const sinon = require('sinon');
 it.optional = require('../extensions/it-optional');
@@ -49,3 +49,4 @@ describe('Recursive depth', () => {
         });
     });
 });
+ */
