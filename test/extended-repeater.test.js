@@ -1,4 +1,4 @@
-const chai = require("chai");
+/* const chai = require("chai");
 const { expect, assert } = chai;
 it.optional = require("../extensions/it-optional");
 
@@ -1151,3 +1151,4 @@ describe("Extended repeater", () => {
     });
   });
 });
+ */
