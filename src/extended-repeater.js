@@ -1,15 +1,15 @@
 const CustomError = require("../extensions/custom-error");
 
 module.exports = function repeater(str, options) {
+  
+
   let newStr = "";
-
-  if (options.separator === undefined) {
-    options.separator = "+";
-  }
-
-  if (options.additionSeparator === undefined) {
-    options.additionSeparator = "|";
-  }
+  str = String(str);
+  options.addition = options.addition === undefined ? '' : String(options.addition);
+  options.repeatTimes = options.repeatTimes || 1;
+  options.additionRepeatTimes = options.additionRepeatTimes || 1;
+  options.separator = options.separator || '+';
+  options.additionSeparator = options.additionSeparator || '|';
 
   if (options.repeatTimes) {
     for (let i = 0; i < options.repeatTimes; i++) {
@@ -24,7 +24,7 @@ module.exports = function repeater(str, options) {
         }
       }
 
-      if (i !== options.repeatTimes - 1) {
+      if (i !== options.repeatTimes-1) {
         newStr += options.separator;
       }
     }
